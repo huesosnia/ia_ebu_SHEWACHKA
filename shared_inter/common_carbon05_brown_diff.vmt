@@ -1,0 +1,24 @@
+"VertexlitGeneric"
+{
+	"$basetexturetransform" "center .5 .5 scale 0.5 0.5 rotate 0 translate 0 0"
+	"$basetexture" "models/DiggerCars/shared_inter/common_carbon05_brown_diff"
+	"$bumpmap" "models/DiggerCars/shared_inter/common_carbon05_norm"
+	"$nodecal" "0"
+	"$normalmapalphaenvmapmask" "1"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.005 0.005 0.005]"
+	"$phong" "1"
+	"$phongexponent" "220"
+	"$phongboost" "1"	
+	"$phongfresnelranges"	"[ 1 4 8 ]"
+	"$acolor" "{155 155 155}"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
